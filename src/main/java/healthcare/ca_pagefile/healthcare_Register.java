@@ -75,6 +75,16 @@ public class healthcare_Register {
 		driver.findElement(cpassword).sendKeys("Abcd@123");
 		driver.findElement(submit).click();
 	}
+	public void register_negative_sc5() {
+		
+		driver.findElement(register).click();
+		driver.findElement(firstname).sendKeys("Amar");
+		driver.findElement(lastname).sendKeys("Zol");
+		driver.findElement(email).sendKeys("efgh@gmail.com");
+		driver.findElement(password).sendKeys("Abcd@123");
+		driver.findElement(cpassword).sendKeys("Abcd@123");
+		driver.findElement(submit).click();
+	}
 	
 	
 

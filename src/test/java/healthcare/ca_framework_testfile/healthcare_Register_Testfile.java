@@ -22,8 +22,6 @@ public class healthcare_Register_Testfile extends healthcare_Register_basefile {
 		healthcare_Register loginPage = new healthcare_Register(driver);
 		
 		loginPage.register_negative_sc1();
-		loginPage.register_negative_sc2();
-		loginPage.register_negative_sc3();
 	}
 	@Test
 	public void test2() throws InterruptedException{
@@ -41,10 +39,17 @@ public class healthcare_Register_Testfile extends healthcare_Register_basefile {
 	}
 	@Test
 	public void test4() throws InterruptedException{
+		
+		healthcare_Register loginPage = new healthcare_Register(driver);
+		
+		loginPage.register_negative_sc4();
+	}
+	@Test
+	public void test5() throws InterruptedException{
 	
 		healthcare_Register loginPage = new healthcare_Register(driver);
 
-	loginPage.register_negative_sc4();
+	loginPage.register_negative_sc5();
 	}
 	
 	@AfterTest
