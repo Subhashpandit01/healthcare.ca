@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11675" started-at="2022-12-11T20:42:46 IST" finished-at="2022-12-11T20:42:58 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11675" started-at="2022-12-11T20:42:46 IST" finished-at="2022-12-11T20:42:58 IST">
+      <class name="healthcare.ca_framework_testfile.healthcare_Register_Testfile">
+        <test-method status="PASS" signature="launch()[pri:0, instance:healthcare.ca_framework_testfile.healthcare_Register_Testfile@6121c9d6]" name="launch" is-config="true" duration-ms="43127" started-at="2022-12-11T20:42:03 IST" finished-at="2022-12-11T20:42:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:healthcare.ca_framework_testfile.healthcare_Register_Testfile@6121c9d6]" name="test1" duration-ms="2944" started-at="2022-12-11T20:42:46 IST" finished-at="2022-12-11T20:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:healthcare.ca_framework_testfile.healthcare_Register_Testfile@6121c9d6]" name="test2" duration-ms="825" started-at="2022-12-11T20:42:49 IST" finished-at="2022-12-11T20:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:healthcare.ca_framework_testfile.healthcare_Register_Testfile@6121c9d6]" name="test3" duration-ms="899" started-at="2022-12-11T20:42:50 IST" finished-at="2022-12-11T20:42:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:healthcare.ca_framework_testfile.healthcare_Register_Testfile@6121c9d6]" name="test4" duration-ms="1006" started-at="2022-12-11T20:42:51 IST" finished-at="2022-12-11T20:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:healthcare.ca_framework_testfile.healthcare_Register_Testfile@6121c9d6]" name="end" is-config="true" duration-ms="5940" started-at="2022-12-11T20:42:52 IST" finished-at="2022-12-11T20:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- healthcare.ca_framework_testfile.healthcare_Register_Testfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
